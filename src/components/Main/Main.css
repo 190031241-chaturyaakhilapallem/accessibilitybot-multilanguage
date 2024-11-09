@@ -21,11 +21,10 @@
     max-width: 900px;
     margin: auto;
 }
-
 .greet {
     margin: 50px 0px;
     font-size: 56px;
-    color: #686E6B;
+    color: #c4c7c5;
     font-weight: 500;
     padding: 20px;
 }
@@ -52,7 +51,7 @@
     background-color: #dfe4ea;
 }
 .card p {
-    color: #E0E0E0;
+    color: #585858;
     font-size: 17px;
 }
 .card img {
@@ -117,9 +116,10 @@
     display: flex;
     align-items: center;
     gap: 20px;
-    
     background-color: #42e9de;
 }
+
+
 .result img {
     width: 40px;
     border-radius: 50%;
@@ -127,7 +127,7 @@
 .result-data {
     display: flex;
     align-items: start;
-    gap: 20px;
+    gap: 20px;   
 }
 .loader {
     width: 100%;
@@ -227,7 +227,7 @@ body.dark-mode {
   }
   
   .navbar.dark-mode {
-    background-color: #FFFFFF; /* Dark navbar */
+    background-color: #1F1F1F; /* Dark navbar */
   }
   
   .navbar.dark-mode .nav-link {
@@ -273,6 +273,7 @@ body.dark-mode {
     background-color: #282828; /* Slightly lighter for contrast */
     padding: 20px;
     border-radius: 10px;
+    
   }
   
   .result.dark-mode {
@@ -331,30 +332,20 @@ body.dark-mode {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adding shadow for a 3D effect */
     max-width: 500px;
     margin: 20px auto;
+    
   }
   
-   .Multi-Lang-Bot h1 {
+  .Multi-Lang-Bot h1 {
     font-family: 'Arial', sans-serif;
     font-size: 24px;
     color: #333;
     margin: 0;
+    
   }
-
+  
   /* Light mode styling */
   @media (prefers-color-scheme: light) {
     .Multi-Lang-Bot {
-      background-color: #FFFFFF; /* Violet color for light mode */
+      background-color: #D3F3F6; /* Violet color for light mode */
     }
   }
-
-@media (prefers-color-scheme: dark) {
-    .Multi-Lang-Bot {
-      background-color: #FFFFFF; /* Violet color for light mode */
-    }
-  }
-
-
-  
-  
-  
-  
