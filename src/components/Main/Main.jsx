@@ -24,7 +24,7 @@ const Main = () => {
   };
 
   return (
-    <div className={main ${darkMode ? 'dark-mode' : 'light-mode'}}>
+    <div className={`main ${darkMode ? 'dark-mode' : 'light-mode'}`}>
       <div className="nav">
         <p>Accessibility Bot</p>
       </div>
@@ -45,7 +45,9 @@ const Main = () => {
         </ul>
         
       </nav>
-  
+      {/*<div class="Multi-Lang-Bot">
+      <h1>Multi-Language Bot</h1>
+      </div>*/}
 
       <div className="main-container">
         {showResult ? (
@@ -69,7 +71,12 @@ const Main = () => {
           </div>
         ) : (
           <>
-           
+            {/*<div className="greet">
+              <p>
+                <span>Whats Up!.</span>
+              </p>
+              <p>How can I help you today?</p>
+            </div>*/}
             <div className="cards"></div>
           </>
         )}
@@ -83,7 +90,8 @@ const Main = () => {
               placeholder="Enter a prompt here"
             />
             <div>
-          
+              {/*<img src={assets.gallery_icon} width={30} alt="" />
+              <img src={assets.mic_icon} width={30} alt="" />*/}
               {input ? (
                 <img onClick={() => onSent()} src={assets.send_icon} width={30} alt="" />
               ) : null}
